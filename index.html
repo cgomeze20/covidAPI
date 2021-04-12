@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d1dee9237.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="dark-mode">
+    <div class="contenedor">
+        <header>
+            <h2>Tracking  COVID-19</h2>
+            <button class='darkMode'>
+                <i class="fas fa-moon luna"></i>
+                Dark Mode
+            </button>
+        </header>
+        <div class="filtro">
+            <form class="form-search" id="formulario">
+                <input type="text" placeholder="Ingresa país" id="formularioInput">
+            </form>
+            <select  id="seleccionar">
+                <option value="">Todos</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Australia/Oceania">Australia/Oceania</option>
+            </select>
+        </div>
+
+        <div  id='banderas' class="banderas">
+
+    </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/formulario.js"></script>
+    <script src="js/custom-select.js"></script>
+</body>
+</html>
